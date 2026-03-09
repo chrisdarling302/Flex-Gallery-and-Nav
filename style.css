@@ -98,22 +98,6 @@ a {
   margin-bottom: 15px;
 }
 
-.item__price span {
-  font-size: 14px;
-  color: #666;
-}
-
-.item__features {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-.item__feature {
-  margin: 8px 0;
-  color: #555;
-}
-
 .item__button {
   background-color: #4337de;
   color: white;
