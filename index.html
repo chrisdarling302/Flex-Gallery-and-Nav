@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flex Gallery and Nav</title>
+  </head>
+  <body>
+    <section>
+      <nav class="row">
+        <img src="./assets/logo.png" class="logo" alt="Site Logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!-- Add Flex Gallery here -->
+
+    <div class="container">
+      <div class="item item--highlighted">
+        <h2 class="item__title">Black Shirt</h2>
+        <p class="item__price">$39</p>
+        <img src="assets/black-button-shirt.png" alt="black button shirt"/>
+
+        <button class="item__button">Buy Now</button>
+      </div>
+
+      <div class="item item--highlighted">
+        <h2 class="item__title">White Shirt</h2>
+        <p class="item__price">$49</p>
+        <img src="assets/white-button-shirt.png" alt="white button shirt"/>
+
+        <button class="item__button">Buy Now</button>
+      </div>
+
+      <div class="item item--highlighted">
+        <h2 class="item__title">Red Shirt</h2>
+        <p class="item__price">$59</p>
+        <img src="assets/red-shirt.png" alt="red shirt" />
+
+        <button class="item__button">Buy Now</button>
+      </div>
+    </div>
+    <!-- End Flex Gallery-->
+    <div class="dark-mode">
+      <button id="dark-mode-toggle">Toggle Dark Mode</button>
+      <!-- unable to figure out dark mode at this time. I will revisit -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
